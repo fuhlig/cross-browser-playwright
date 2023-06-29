@@ -1,5 +1,5 @@
 {
-  "name": "playwright-webkit-on-win",
+  "name": "cross-browser-playwright",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
