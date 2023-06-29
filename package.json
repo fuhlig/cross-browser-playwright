@@ -1,17 +1,18 @@
 {
-  "name": "safari-windows",
+  "name": "playwright-webkit-on-win",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test:chrome": "npx playwright test --headed --browser=chromium",
     "test:firefox": "npx playwright test --headed --browser=firefox",
-    "test:safari": "npx playwright test --headed --browser=webkit"
+    "test:safari": "npx playwright test --headed --browser=webkit",
+    "postinstall": "npx playwright install"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "1.27.1"
+    "@playwright/test": "1.35.1"
   }
 }
