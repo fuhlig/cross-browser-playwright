@@ -19,7 +19,7 @@ npm run test:<chrome | firefox | safari>
 # Update playwright
 npm install -D @playwright/test@latest
 
-# Install new browsers
+# Install / update browsers
 npx playwright install
 ```
 
